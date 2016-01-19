@@ -97,7 +97,7 @@ def show_result():
 #        dump_result = json.dumps(response)
 #	parsed_result = parser.parse(dump_result)
 	#return '%s' % parsed_result
-	base_url = "http://211.253.8.97:3838/test/?"
+	base_url = "http://server_ip:3838/test/?"
 	#request_url = base_url + keyparam + "&param=%s"%parsed_result
 	request_url = base_url + keyparam
 	print "request_url = %s"%request_url
